@@ -15,4 +15,9 @@ public class WellComeController {
         return "well come young Padawan";
     }
 
+    @GetMapping
+    public String hello(){
+        return "Hello my friend";
+    }
+
 }
