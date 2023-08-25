@@ -16,6 +16,7 @@ public class WellComeController {
     }
 
     @GetMapping
+    @RequestMapping(value = "/hello")
     public String hello(){
         return "Hello my friend";
     }
