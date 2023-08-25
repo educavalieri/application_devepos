@@ -21,4 +21,10 @@ public class WellComeController {
         return "Hello my friend";
     }
 
+    @GetMapping
+    @RequestMapping(value = "/oi")
+    public String oi(){
+        return "oi meu amigo";
+    }
+
 }
