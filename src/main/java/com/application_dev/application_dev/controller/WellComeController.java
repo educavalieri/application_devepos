@@ -26,5 +26,11 @@ public class WellComeController {
     public String oi(){
         return "oi meu amigo";
     }
+    
+    @GetMapping
+    @RequestMapping(value = "/teste")
+    public String teste(){
+        return "teste ok";
+    }
 
 }
