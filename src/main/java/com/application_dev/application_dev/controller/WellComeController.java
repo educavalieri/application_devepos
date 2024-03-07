@@ -30,7 +30,7 @@ public class WellComeController {
     @GetMapping
     @RequestMapping(value = "/teste")
     public String teste(){
-        return "teste ooookkk";
+        return "teste ok";
     }
 
 }
