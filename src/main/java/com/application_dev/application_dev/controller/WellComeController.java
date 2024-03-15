@@ -33,4 +33,9 @@ public class WellComeController {
         return "teste ok";
     }
 
+    @GetMapping
+    @RequestMapping(value = "/back")
+    public String testeBack(){
+        return "teste back ok";
+    }
 }
