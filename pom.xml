@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>/application_dev</finalName>
 	</build>
 
 </project>
